@@ -57,12 +57,12 @@ networks:
 volumes:
   wordpress:
     driver_opts:
-      device: /home/mtigunit/data/wordpress
+      device: /home/ayoub/data/wordpress
       type: none
       o: bind
 
   mariadb:
     driver_opts:
-      device: /home/mtigunit/data/mariadb
+      device: /home/ayoub/data/mariadb
       type: none
       o: bind
